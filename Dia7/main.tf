@@ -67,4 +67,4 @@ resource "azurerm_virtual_machine" "main" {
     managed_by = var.resource_tags["managed_by"]
     department = var.resource_tags["department"]
   }
-} 
+}  
