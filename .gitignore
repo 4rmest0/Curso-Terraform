@@ -1,18 +1,18 @@
 # Directorios ocultos de Terraform en cualquier subcarpeta
 **/.terraform/*
 
-# Archivos de estado (¡Nunca subir!)
+# Archivos de estado 
 **/*.tfstate
 **/*.tfstate.*
 
-# Archivos con variables sensibles (Tus credenciales)
+# Archivos con variables sensibles 
 **/*.tfvars
 **/*.tfvars.json
 
-# Archivos de bloqueo de versiones (Opcional, pero te dejará el repo más limpio)
+# Archivos de bloqueo de versiones 
 **/.terraform.lock.hcl
 
-# Scripts de terminal (Suelen tener 'exports' con secretos)
+# Scripts de terminal 
 *.sh
 
 # Archivos de log
