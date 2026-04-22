@@ -32,4 +32,4 @@ resource "azurerm_network_security_group" "example" {
 
 output "env" {
   value = var.environment
-}
+} 
